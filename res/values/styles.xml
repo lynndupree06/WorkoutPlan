@@ -1,0 +1,25 @@
+<resources>
+	<style name="AppTheme" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+	    <!-- <item name="android:windowBackground">@color/background_color</item>
+    	<item name="android:colorBackground">@color/background_color</item> -->
+	    <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="actionModeStyle">@style/ActionMode</item>
+    	<!-- <item name="android:textColor">@color/black</item> -->
+	</style>
+	<style name="ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+	    <!-- <item name="background">@drawable/actionbar_item_states</item>
+	    <item name="android:background">@drawable/actionbar_item_states</item> -->
+		<item name="titleTextStyle">@style/TitleTextStyle</item>
+        <!-- <item name="backgroundSplit">@color/actionbar_background</item> -->
+	</style>
+	<style name="TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+	</style>
+	<style name="ActionMode" parent="@style/Widget.Sherlock.ActionMode">
+		<!-- <item name="android:background">@color/transparent</item>
+		<item name="background">@color/transparent</item>
+		<item name="backgroundSplit">@drawable/actionbar_item_states</item> -->
+		<item name="titleTextStyle">@style/ActionModeTitleText</item>
+	</style>
+	<style name="ActionModeTitleText" parent="@android:style/TextAppearance.Medium">
+	</style>
+</resources>
